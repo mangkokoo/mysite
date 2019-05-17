@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<h1>News</h1>
+
+<ul>
+  <!-- you can change name "post" to anything and it won't make any diff -->
+  {% for post in site.posts %}
+  <li>
+    <a href="{{post.url}}">
+      {{post.title}}
+    </a>
+    <p>{{post.excerpt}}</p>
+  </li>
+  {% endfor %}
+</ul>
