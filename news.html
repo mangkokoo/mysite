@@ -6,10 +6,10 @@ layout: default
 
 <ul>
   <!-- you can change name "post" to anything and it won't make any diff -->
-  {% for post in site.posts limit:4 %}
+  {% for post in site.posts limit:5 %}
   <li>
     <a href="{{post.url}}">
-      {{post.title}}
+      {{post.title | capitalize }}
     </a>
     <p>{{post.excerpt}}</p>
   </li>
