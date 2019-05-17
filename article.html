@@ -2,16 +2,16 @@
 layout: default
 ---
 
-<h1>News</h1>
+<h1>Articles</h1>
 
-<ul>
+<ul class="news-list">
   <!-- you can change name "post" to anything and it won't make any diff -->
   {% for post in site.posts limit:5 %}
   <li>
     <a href="{{post.url}}">
       {{post.title | capitalize }}
     </a>
-    <p>{{post.excerpt}}</p>
+    <p>{{ post.content | strip_html | truncatewords: 70 | append: "" }}</p>
   </li>
   {% endfor %}
 </ul>
