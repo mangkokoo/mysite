@@ -9,15 +9,15 @@ html {
   color: white;
   background-color: mediumSeaGreen;
 }
-ul {
+nav ul {
   overflow: auto;
 }
-ul li {
+nav ul li {
   display: block;
   float: left;
   padding: 20px;
 }
-ul li a {
+nav ul li a {
   text-decoration: underline;
   color: mediumSeaGreen;
 }
@@ -30,5 +30,6 @@ h1 {
 }
 body {
   max-width: 750px;
+  padding: 25px;
   margin: 0 auto;
 }
