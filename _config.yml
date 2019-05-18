@@ -2,3 +2,4 @@ markdown: redcarpet
 baseurl: ""
 exclude: ['README.md']
 title: "Fauzan's blog"
+highlighter: rouge

@@ -1,14 +1,17 @@
 ---
 layout: default
 ---
+I created this blog for me to have an online note than I can access anywhere. And maybe it can be helpful for anyone read this. This blog is incomplete and here's things to be done.
 ##TODO
-  - implement site header background
-  - tanggal post
-  - test
-  - comment count
-  - paraghraph animation should apply to post only not globally
++ implement site header background
++ tanggal post
++ test
++ comment count
++ paraghraph animation should apply to post only not globally
++ paragraph should apply locally in each page ex: paragraf di home page jangan sama sama di post
++ sitemap
 
-```c++
+```python
 import numpy
 print("hello wordl")
 ```
