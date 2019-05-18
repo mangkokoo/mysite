@@ -4,7 +4,15 @@ html {
 }
 
 .current {
-  color: hotPink;
+  background-color: mediumSeaGreen;
+  color: white;
+  font-weight: bold;
+}
+nav {
+}
+header {
+  /*box-shadow: 0 8px 6px -8px black;*/
+  border-bottom: solid lightGray 1px;
 }
 nav ul {
   overflow: auto;
@@ -18,6 +26,13 @@ nav ul li {
 nav ul li a {
   text-decoration: underline;
   color: mediumSeaGreen;
+  display: block;
+  padding: 10px;
+}
+nav ul li a:hover {
+	background-color: mediumSeaGreen;
+  color: white;
+  display: block;
 }
 footer {
   font-family: 'courier new';
@@ -44,9 +59,10 @@ p {
   color: #585858;
   text-indent: 30px;
   text-align: justify;
+	transition: 0.3s;
 }
 .news-list li {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   padding: 20px;
   line-height: 20px;
@@ -77,9 +93,22 @@ p {
 }
 .card {
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
 
+.site-title {
+}
+.initial-name {
+  color: white;
+  background-color: black;
+  font-size: 32px;
+  font-family: serif;
+  font-weight: 900;
+  padding: 5px 10px;
+  text-decoration: underline;
+}
 
-/* On mouse-over, add a deeper shadow */
+.then-name {
+  padding-left: 10px;
+}
