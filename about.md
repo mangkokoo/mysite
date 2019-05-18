@@ -4,9 +4,11 @@ layout: default
 ##TODO
   - implement site header background
   - tanggal post
+  - test
   - comment count
+  - paraghraph animation should apply to post only not globally
 
-```python
+```c++
 import numpy
 print("hello wordl")
 ```

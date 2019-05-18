@@ -11,7 +11,7 @@ layout: default
     <a href="{{post.url}}">
       {{post.title | capitalize }}
     </a>
-    <p>{{ post.content | strip_html | truncatewords: 70 | append: "" }}</p>
+    <p>{{ post.content | strip_html | truncatewords: 45 | append: "" }}</p>
   </li>
   {% endfor %}
 </ul>
